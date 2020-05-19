@@ -22,6 +22,10 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
+  epic_tragedy_juliet[:capulet][:heroine][:status] = "dead"
+  puts epic_tragedy_juliet
+  epic_tragedy_romeo[:montague][:hero][:status] = "dead"
+  puts epic_tragedy_romeo
 
 
 
@@ -56,8 +60,8 @@ def add_characters
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
    # - Add two hashes to this array, both with a :name key.
-   #   - The first hash should have the :name key set to "Prince Escalus" 
-   #   - The second hash should have the :name key set to "Apothecary" 
+   #   - The first hash should have the :name key set to "Prince Escalus"
+   #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 
 
